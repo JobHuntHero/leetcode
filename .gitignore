@@ -1,6 +1,6 @@
-/node_modules
+/my-app/node_modules
 /.idea
 /test/node_modules
 /test/playwright-report
 /test/test-results
-/.next
+/my-app/.next
