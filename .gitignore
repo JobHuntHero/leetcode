@@ -1,0 +1,5 @@
+/node_modules
+/.idea
+/test/node_modules
+/test/playwright-report
+/test/test-results
