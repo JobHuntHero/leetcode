@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <link rel='icon' href='/favicon.png' />
                 <meta
                     name='description'
-                    content='Web application that contains leetcode problems and video solutions'
+                    content='Web application that contains leet-code problems and video solutions'
                 />
             </Head>
             <ToastContainer />
