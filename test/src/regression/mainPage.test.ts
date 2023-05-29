@@ -11,7 +11,7 @@ test.describe('Main Page', () => {
     mainPage = new MainPage(page);
 
     await mainPage.open(url);
-    // Expect logo is visible
+    // Expect logo is visible on the page
     await expect(mainPage.vercelLogo).toBeVisible();
   });
 
@@ -21,7 +21,7 @@ test.describe('Main Page', () => {
     mainPage = new MainPage(page);
 
     await mainPage.open(url);
-    // Expect logo is visible
+    // Expect logo is visible on the page
     await expect(mainPage.vercelLogo).toBeVisible();
   });
 
