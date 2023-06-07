@@ -7,11 +7,15 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "test": "APP_URL=http://localhost:3000/ npx playwright test"
+    "test": "APP_URL=http://localhost:3000/ TESTRAIL_HOST=https://jobhunthero.testrail.io/ TESTRAIL_USERNAME=marketing@jobhunthero.com TESTRAIL_PASSWORD=JobHuntHero16048. TESTRAIL_PROJECT_ID=1 TESTRAIL_RUN_NAME=run2 npx playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.34.3",
     "@types/node": "^20.2.5",
     "playwright-chromium": "~1.19.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "playwright-testrail-reporter": "^1.1.2"
   }
 }
