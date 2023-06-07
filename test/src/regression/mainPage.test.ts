@@ -7,7 +7,7 @@ let mainPage: MainPage;
 
 test.describe('Main Page', () => {
 
-  test('C1: has SignIn Button', async ({ page }) => {
+  test('C2: has SignIn Button', async ({ page }) => {
 
     mainPage = new MainPage(page);
 
