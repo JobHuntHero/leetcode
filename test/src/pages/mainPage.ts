@@ -3,7 +3,7 @@ import {BasePage} from "./basePage";
 
 export class MainPage extends BasePage{
 
-    get vercelLogo(){
-        return this.page.locator('[data-testid="vercel-logo"]')
+    get signInButton(){
+        return this.page.locator("//button[.='Sign In']")
     }
 }
