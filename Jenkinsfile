@@ -26,6 +26,5 @@ pipeline {
           sh 'rm -rf *.png'
         }
       }
-    }
-  }
+   }
 }
